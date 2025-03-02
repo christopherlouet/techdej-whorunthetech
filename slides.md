@@ -26,33 +26,22 @@ JEUDI 28 NOVEMBRE 2024
 
 Une journée inédite de conférences techniques et d'ateliers animés par des femmes, expertes, qui font carrière dans la tech !
 
-[//]: # (<style>)
+<style>
+h1 {
+  background-color: #FFF;
+  background-image: none;
+}
 
-[//]: # (h1 {)
+p {
+  color: #FFF;
+  font-weight: bold;
+  opacity: 0.7;
+}
 
-[//]: # (  background-color: #FFF;)
-
-[//]: # (  background-image: none;)
-
-[//]: # (})
-
-[//]: # (p {)
-
-[//]: # (  color: #FFF;)
-
-[//]: # (  font-weight: bold;)
-
-[//]: # (  opacity: 0.7;)
-
-[//]: # (})
-
-[//]: # (.slidev-layout h1 + p {)
-
-[//]: # (  opacity: 0.8;)
-
-[//]: # (})
-
-[//]: # (</style>)
+.slidev-layout h1 + p {
+  opacity: 0.8;
+}
+</style>
 
 ---
 transition: slide-left
@@ -98,7 +87,7 @@ transition: slide-left
 <br/>
 
 <p align="center" width="100%">
-    <img alt="Pipeline Gitlab" src="./1/pipeline.png"/>
+    <img alt="Pipeline Gitlab" src="/1/pipeline.png"/>
 </p>
 
 <br/>
@@ -115,7 +104,7 @@ transition: slide-left
 <br/>
 
 <p align="center" width="100%">
-    <img alt="Structure d'un composant gitlab" src="./1/composant_fichiers.png"/>
+    <img alt="Structure d'un composant gitlab" src="/1/composant_fichiers.png"/>
 </p>
 
 <br/>
@@ -177,7 +166,7 @@ Google propose l'outil Lighthouse :
 <br/>
 
 <p align="center" width="100%">
-    <img alt="Aperçu d'un rapport lighthouse" src="./2/lighthouse.png"/>
+    <img alt="Aperçu d'un rapport lighthouse" src="/2/lighthouse.png"/>
 </p>
 
 ---
@@ -237,7 +226,7 @@ transition: slide-left
 ---
 
 <p align="center" width="100%">
-    <img alt="Aperçu d'un rapport lighthouse" src="./3/architecture_hexagonale.png"/>
+    <img alt="Aperçu d'un rapport lighthouse" src="/3/architecture_hexagonale.png"/>
 </p>
 
 ---
@@ -303,7 +292,7 @@ transition: slide-left
 ---
 
 <p align="center" width="100%">
-    <img alt="Aperçu d'un rapport lighthouse" src="./4/devgreenops.png"/>
+    <img alt="Aperçu d'un rapport lighthouse" src="/4/devgreenops.png"/>
 </p>
 
 ---
@@ -332,7 +321,7 @@ transition: slide-left
 Description et utilité d'un pipeline
 
 <p align="center" width="100%">
-    <img alt="Pipeline CI/CD" src="./5/pipeline_cicd.png"/>
+    <img alt="Pipeline CI/CD" src="/5/pipeline_cicd.png"/>
 </p>
 
 
@@ -345,7 +334,7 @@ Stages classiques d'une Pipeline CI/CD
 transition: slide-left
 ---
 
-<img alt="Pipeline CI/CD" src="./5/outils.png"/>
+<img alt="Pipeline CI/CD" src="/5/outils.png"/>
 
 ---
 transition: slide-left
@@ -368,7 +357,7 @@ DevOps et pratiques CI/CD
 transition: slide-left
 ---
 
-<img alt="Pipeline CI/CD" src="./5/gitlab_cicd.png"/>
+<img alt="Pipeline CI/CD" src="/5/gitlab_cicd.png"/>
 
 ---
 transition: slide-left
@@ -396,13 +385,13 @@ Sécurité dans les pipelines avec l"approche DevSecOps
 transition: slide-left
 ---
 
-<img alt="Pipeline CI/CD" src="./5/avantages_bonnes_pratiques.png"/>
+<img alt="Pipeline CI/CD" src="/5/avantages_bonnes_pratiques.png"/>
 
 ---
 transition: slide-left
 ---
 
-<img alt="Caractéristiques d'un bon pipeline" src="./5/bon_pipeline.png"/>
+<img alt="Caractéristiques d'un bon pipeline" src="/5/bon_pipeline.png"/>
 
 ---
 transition: slide-left
@@ -449,7 +438,7 @@ transition: slide-left
 ---
 
 <p align="center" width="100%">
-    <img alt="Règles" src="./6/regles.png"/>
+    <img alt="Règles" src="/6/regles.png"/>
 </p>
 
 ---
